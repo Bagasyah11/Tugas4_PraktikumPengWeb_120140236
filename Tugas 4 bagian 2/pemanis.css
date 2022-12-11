@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root:not(.mode) {
+    --warnautama: darkseagreen;
+    --warnakedua: yellow;
+    --backgroundbody: rgb(152, 201, 207);
+    --font-color1: black;
+    --foto1 : url(asset/leaves.webp);
+}
+:root.mode {
+    --warnautama: black;
+    --warnakedua: maroon;
+    --backgroundbody: #0a3435;
+    --font-color1: #ffffff;
+    --foto1 : url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: var(--foto1);
+}
+header{
+    background-color:var(--warnautama);
+    height: 90px;
+  
+}.foto{
+    position: absolute;
+}.keterangan{
+    position: absolute;
+    left: 70px;
+    color:white;
+}
+li{
+    list-style: none;
+
+    
+}a{ 
+    text-decoration: none;
+    color: var(--font-color1);
+}ul :hover{
+    color: red;
+    font-size: 20px;
+    
+}
+button {
+    border: none;
+    background-color: var(--backgroundbody);
+    color: var(--font-color1);
+  }
+nav{
+    padding: 0px 5px;
+    background-color: var(--warnakedua);
+    height: 30px;
+}.daftar{
+    color: white;
+}.daftar li{
+    float: left;
+    padding: 0px 5px;
+    color: white;
+}
+main{
+
+    padding: 0px 20px;
+    color: var(--font-color1);
+}
